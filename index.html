@@ -11,15 +11,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Libya_%281977%E2%80%932011%29.svg/360px-Flag_of_Libya_%281977%E2%80%932011%29.svg.png" alt="">
     </a>
     <script>
-        const materials = document.querySelectorAll(".materials");
-        materials.forEach(material => {
-            material.addEventListener('click', e => {
-                event.preventDefault();
-                const anchor = event.target.closest("a");
-                if (!anchor) return;
-                window['external']['JSCallback'](anchor.getAttribute('href'));
-            })
-        });
+        
     </script>
 </body>
 </html>
